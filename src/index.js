@@ -12,5 +12,5 @@ app.get('/', (req, res) =>
 }); 
 
 require('../controllers/authController.js')(app); 
-
+require('../controllers/projectController.js')(app);
 app.listen(3000); 
