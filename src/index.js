@@ -11,6 +11,6 @@ app.get('/', (req, res) =>
     res.json('Alabimba'); 
 }); 
 
-require('../controllers/authController.js')(app); 
-require('../controllers/projectController.js')(app);
+require('./app/controllers/index')(app); 
+;
 app.listen(3000); 
